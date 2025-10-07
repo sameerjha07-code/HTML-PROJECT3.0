@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML Notes</h1>
+    <a href="http://127.0.0.1:5500/day1/revision/day2/index.html"> Lectue l
+        </a>
+      <a href="http://127.0.0.1:5500/day1/revision/day2/second%20.html">l
+        Lecture 2</a>
+   <a href="http://127.0.0.1:5500/day1/revision/day2/third.html">Lecture 3</a>
+  <a href="http://127.0.0.1:5500/day1/revision/day2/fourth.html">lecture 4</a> 
+   <br>
+   <h1>HTML Notes</h1>
+   
+   <h2>Overview of Day 3</h2>
+   <table border="2">
+        <tr>
+            <td>Youtube video</td>
+            <td>Description</td>
+            <td>Topics Covered</td>
+        </tr>
+        <tr>
+            <td> <iframe src="https://www.youtube.com/embed/k78lNSAB8VY" allowfullscreen></iframe></td>
+            <td>This tutorial teaches professional HTML structure, showing how files link together and how to write essential boilerplate code.
+
+Learn to use divs and semantic tags like header, footer, and main for clean, modern, SEO-friendly layouts.</td>
+            <td><ol>
+                <li>File Path System: Relative & Absolute Paths</li>
+                <li>HTML Boilerplate (DOCTYPE, meta, head, body)</li>
+                <li>The Power of div for content grouping</li>
+                <li>Using class & id for styling and unique elements</li>
+                <li>Modern Layout with Semantic HTML (header, footer, main)
+</li>
+            </ol></td>
+        </tr>
+    </table>
+<hr>
+<h2>File path System the first Principle and Core Problem</h2>
+<hr>
+<h2>Step 1: the first principle ( the fundamental truth) </h2>
+<pr>The most fundamental truth is this: A website is not one single file.
+
+It's a collection of different files (HTML, CSS, JavaScript, images, videos, fonts) that all need to work together. These files are organized into folders, just like documents on your computer.
+
+</pr>
+<hr>
+<h2>The Core Problem</h2>
+<pr>Now we have a core problem: If your index.html file needs to display an image named logo.png, how does the HTML file tell the browser where to find logo.png?
+
+You can't just say src="logo.png" and expect it to work every time. What if the logo is in an images folder? What if it's on a completely different website?
+
+The browser needs an exact, unambiguous address to locate the file. A file path is that address.
+
+</pr>
+<hr>
+<h2>Relative File Path (The Most Important for Your Projects)</h2>
+<pr>A relative file path gives directions to a file starting from the location of the file you are currently in. You will use this 99% of the time for linking your own files together (images, CSS, other HTML pages).
+
+</pr>
+<img src="https://html-notes-123.netlify.app/ss1.png"height="200px">
+<br>
+<pr>Here are the different scenario</pr>
+<hr>
+<h2>HTML BOILERPOINT CODE </h2> </h2>
+<BR> 
+    <PR><h3>The First Priciple (The Fundamental Truth)</h3></PR>
+    <pr>The fundamental truth is that a web browser is a program that needs specific, predictable instructions to do its job. It cannot guess your intentions. You can't just give it a file with a  tag and expect it to know what kind of document it is, what language it's in, or how to render it properly.</pr>
+<br>
+<h3>Step 2:The core Problem</h3>
+<pr>We need a way to give the browser essential "setup information" before it starts rendering our visible content (like paragraphs and images). This setup information needs to answer critical questions:
+
+What version of HTML am I reading? (So I know which rules to follow)
+What character encoding should I use? (So characters like ©, ’, or ₹ display correctly)
+What should the title of the browser tab be?
+How should this page behave on mobile vs desktop?</pr>
+<hr>
+<img src="https://html-notes-123.netlify.app/ss2.png"height="500px"width="500px">
+"
+
+
+
+
+</body>
+</html>

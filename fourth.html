@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML COURSE</h1>
+        <a href="http://127.0.0.1:5500/day1/revision/day2/index.html"> Lectue l
+        </a>
+      <a href="http://127.0.0.1:5500/day1/revision/day2/second%20.html">l
+        Lecture 2</a>
+   <a href="http://127.0.0.1:5500/day1/revision/day2/third.html">Lecture 3</a>
+   <a href="http://127.0.0.1:5500/day1/revision/day2/fourth.html">lecture 4</a>
+      <br>
+    
+    <table border="2">
+        <tr>
+            <td>Youtube video</td>
+            <td>Descripition</td>
+            <td>Topics covered</td>
+        </tr>
+        <tr>
+            <td><iframe src="https://www.youtube.com/embed/a4j9R_DvZ8M" allowfullscreen></iframe></td>
+            <td>This tutorial teaches professional HTML structure, showing how files link together and how to write essential boilerplate code.
+
+Learn to use divs and semantic tags like header, footer, and main for clean, modern, SEO-friendly layouts.</td>
+            <td> File Path System: Relative & Absolute Paths
+HTML Boilerplate (DOCTYPE, meta, head, body)
+The Power of div for content grouping
+Using class & id for styling and unique elements
+Modern Layout with Semantic HTML (header, footer, main)
+</td>
+        </tr>
+    </table>
+
+<h2>File Path System: The First Principle and Core Problem
+</h2>
+<hr>
+<h2>Step 1: The First Principle (The Fundamental Truth)</h2>
+<pr>The most fundamental truth is this: A website is not one single file.
+
+It's a collection of different files (HTML, CSS, JavaScript, images, videos, fonts) that all need to work together. These files are organized into folders, just like documents on your computer.
+
+</pr>
+<hr>
+<h2>Step 2: The Core Problem</h2>
+<pr>Now we have a core problem: If your index.html file needs to display an image named logo.png, how does the HTML file tell the browser where to find logo.png?
+
+You can't just say src="logo.png" and expect it to work every time. What if the logo is in an images folder? What if it's on a completely different website?
+
+The browser needs an exact, unambiguous address to locate the file. A file path is that address.
+
+</pr>
+<hr>
+<h2>A) Relative File Paths (The Most Important for Your Projects)</h2>
+<pr>A relative file path gives directions to a file starting from the location of the file you are currently in. You will use this 99% of the time for linking your own files together (images, CSS, other HTML pages).
+
+</pr>
+<img src="https://html-notes-123.netlify.app/ss1.png"height="200px">
+<h2>Scenario 1: Linking to a file in the SAME folder</h2>
+<pr>The Problem: You are in index.html and want to link to about.html.
+
+The Logic: Both files are in the same folder (my-website/), so the path is just the filename.
+
+<!-- This code is inside index.html -->
+<a href="about.html">About Us</a>
+</pr>
+
+
+
+
+
+
+
+
+</body>
+</html>
